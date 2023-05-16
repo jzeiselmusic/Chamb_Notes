@@ -10,12 +10,31 @@ SCRUM / AGILE
 	- Can be used for individuals and also for teams separately 
 	- not used super often because its not a close estimation
 
+
 - backlog prioritization
 	- two paths - what is important to us, and what is important to client?
 	- what is important to us, might be something that is necessary 
 	  before completing what is important to client, that they dont realize!
 	
+	Moscow Model
+
 	M - must have (non negotiable, necessary for job to get done)
 	S - should have (very important but not absolutely essential)
 	C - could have (some fun additions and nice features)
 	W - won't have (not necessary, takes too much time, dropped from priorities)
+
+	Kano Model
+	- this one is about what is best for the customer, not for us
+
+	Must-have - basic features that the customers won't even notice because they are so obviously necessary
+
+	Performance-Attributes - features that will make the customers happy because they see we do a good job
+
+	Delighters - features that will surprise and delight!
+
+
+- SPRINT planning
+	- deciding how to do a sprint
+	- what are the rules? What are the parameters? What consitutes a story/epic etc
+	- sprint planning session can be 2-8 hours or so. For a 4-6 week sprint
+	- what will be done and how will it be done?
