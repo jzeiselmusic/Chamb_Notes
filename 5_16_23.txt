@@ -1,0 +1,21 @@
+SCRUM / AGILE 
+
+
+- burndown chart
+	- used to keep track of how many hours are left in the project
+	- it is an estimation tool
+	- already included in JIRA
+	- can be used to show clients or other workers
+	- JIRA calculates automatically for you
+	- Can be used for individuals and also for teams separately 
+	- not used super often because its not a close estimation
+
+- backlog prioritization
+	- two paths - what is important to us, and what is important to client?
+	- what is important to us, might be something that is necessary 
+	  before completing what is important to client, that they dont realize!
+	
+	M - must have (non negotiable, necessary for job to get done)
+	S - should have (very important but not absolutely essential)
+	C - could have (some fun additions and nice features)
+	W - won't have (not necessary, takes too much time, dropped from priorities)

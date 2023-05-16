@@ -1,0 +1,45 @@
+issues to track:
+
+-- work on perfecting and organizing the SmURF POC
+	-- fix slight delay issue
+	-- organize python environments and fix repo issue
+
+-- kotlin / bluetooth
+	-- should we implement yang's library in kotlin?
+	-- should we abandon kotlin as the app lang?
+		-- if not using kotlin, we could use C++?
+			-- would obviously be easier to integrate
+			-- how will customers/partners be using the library?
+-- summer goals for intern
+	-- desire to work with firmware/hardware
+	-- could build an entirely new POC with conti-type hardware
+	-- could build a precision parking POC
+		-- 4 car nodes or GDO nodes, communicating with one UWB node
+		-- all 4 rcvr nodes advertise via bluetooth to app 
+		   which does calculations and UI
+
+
+
+updates on where we are at:
+
+Smurf Basic Library:
+	- updating BLE for support 4.2 and 5.0 (SR150 is 4.2 with our QN9090 SDK)
+		- 5.0 BLE can do a "scan request" to see if what is comming is 4.2 or 5.0
+		- SR150 doesn't accept scan requests however....
+	- local provisioning? what is this? OTA updates?
+
+Github Migration / Build Tools:
+	- mostly done 
+	- still need to integrate github actions (continuous integration)
+	- still need static analysis
+		- these tools are used to do error/warning checks while
+		  in the process of merging branches and making commits
+
+
+Going to continue to send simple commands in Kotlin like the Conti solution (like the CES solution)
+but also continue to try to integrate library into kotlin if at all possible
+
+
+
+
+	

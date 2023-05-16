@@ -1,0 +1,23 @@
+- vehicle will advertise
+- hub/gdo will hear advertisement
+	- supposed to be e-coded but that is too close to security 3.0
+	- this has to do with the way the advertisement is laid out
+- VID is sent with the connection. Hub needs to the VID to decide what GDO to operate
+- UUID is passed, same on every smurf, describes what profile is being discussed
+	- this can probably be random, we get to decide 
+- GDO is scanning, sending connection command 
+	- once connection, they exchange service discovery
+
+- HSM Services- hardware security layer (encrypytion / decryption). HSM is 
+	a module that deals with the chips security.
+- AUTOSAR is an industrial defined standard. Kind of a layer on top of different 
+	communication standards (SPI, UART, etc). What does it define? Do?
+- AUTOSAR essentially will be sold to us as a SPI controller, UART controller, 
+	encryption controller, etc. etc. 
+
+- Unified Message Queue is the heart of the process. The smurf arbeit 
+	pushes requests (actuate, close, open, etc) to the message queue
+	and then the different subworkers check the queue to see if there is
+	any work for them to do. This way we can add more functionality 
+	and change it over time to fit whatever encryption, security, comm
+	processes each OEM requires. 

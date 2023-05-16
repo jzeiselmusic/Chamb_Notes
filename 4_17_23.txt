@@ -1,0 +1,63 @@
+meeting with Bosch- 
+	aim is to look for Tier1 who are working on BLE and UWB, trying to use their existing infrastructure to make POC.
+	this approach is using BLE and UWB as a backup to myq wifi API
+
+	two tier ones doing this (digital key solution) is Bosch and COnti (continental)
+
+	discussion with Bosch went well
+
+	their product which is part of their network dept. is Perfectly Keyless
+
+	
+meeting with Continental (conti)- 
+	discussion- what should the POC look like?
+
+	a little further down the road than Bosch. 
+
+Question of software approach vs requirements approach
+	. do we provide them a software library?
+	. or do we just make the GDO side hardware and tell them the BLE requirements they need to get the software built
+
+
+Met with Stellantis as well (stellantis is chrysler/fiat)
+	they think MyQ was slow for them. why?
+	they will reconsider
+	
+
+Met also with TOyota
+	they want a complete hybrid MyQ and BLE solution
+
+Met with GM
+	
+Met with Nissan
+	They have gotten very far in integrating MyQ into their vehicles
+	target is for them to go to market with MyQ in October
+
+	their implementation: when you get to the geofence, it gives you a popup for a user button call
+
+	works smoothly because their implementation is embedded in their android system
+	no car play or app download necessary
+
+
+using webhooks:
+	webhooks means that you can call get device list a single time and then any time that response changes, you will get a callback called
+	that way you always know when a status has changed 
+
+	then you don't have to keep polling the server just to get device state
+
+	this would probably be helpful for us and also for them (financially)
+
+	the OEMS are paying for each API call essentially
+
+
+
+*** --- SMURF is going to be called MyQ BLUE as a product --- **** 
+
+myq blue is going to be the BASE product. it is local access and backup when no wifi
+
+	built on top of the BASE product, we have MyQ Cloud access. Remote accessibility 
+		
+		on top of THAT, we may have additional services (myQ intelligence). 
+			this is like geofencing, remote start, precision parking, enhanced geofence, UWB, etc.
+			this last solutions is a way of connecting to a Smart Garage
+			this one also needs our own custom hardware (probably). unless the car has UWB

@@ -1,0 +1,5 @@
+
+we want jira stories to represent a sprint 
+
+this means that a story should be able to get results in 2-3 weeks
+

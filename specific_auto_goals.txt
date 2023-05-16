@@ -1,0 +1,12 @@
+Overall goal of 31M in services revenue this year for the whole company
+automotive wants to contribute 7.6M to that 
+	- optimize core
+		- optimize gentex revenue through selling IP to mirror manufact.
+			- we make 80-90M every year through this. 50% of cars
+		- we want to sell our own solution to other 50% through ARQ2
+		- goal for this is 88M exactly for Jim Trainor
+		- then the transform objective is add 7.6M through new services
+
+This can all be thought of as an app store in cars, depending on the manufacturer
+We want to start selling apps to cars basically. 
+Imagine each car OEM has their own app store, and we want to provide apps to each
